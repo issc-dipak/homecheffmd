@@ -1,0 +1,27 @@
+POST /api/auth/register → Register a new user
+POST /api/auth/login → Login a user
+POST /api/auth/logout → Logout user
+GET /api/auth/me → Get current logged-in user details
+📌 Recipe Management
+POST /api/recipes → Add a new recipe
+GET /api/recipes → Fetch all recipes
+GET /api/recipes/:id → Get a single recipe
+PUT /api/recipes/:id → Update a recipe
+DELETE /api/recipes/:id → Delete a recipe
+📌 Advertisement Management
+POST /api/ads/add → Add a new advertisement
+GET /api/ads → Fetch all advertisements
+GET /api/ads/:id → Fetch a single advertisement
+PUT /api/ads/:id → Update an advertisement
+DELETE /api/ads/:id → Delete an advertisement
+📌 Order Management (If the project includes selling recipes or ingredients)
+POST /api/orders → Place a new order
+GET /api/orders → Fetch all orders
+GET /api/orders/:id → Fetch order details
+PUT /api/orders/:id → Update order status
+DELETE /api/orders/:id → Cancel an order
+📌 User Profile & Reviews
+GET /api/users/:id → Fetch user profile
+PUT /api/users/:id → Update user profile
+POST /api/reviews → Add a review for a recipe
+GET /api/reviews/:recipeId → Fetch reviews for a recipe
